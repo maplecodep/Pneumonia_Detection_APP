@@ -8,7 +8,7 @@ import os
 
 # Set the AWS API endpoint URL as an environment variable
 api_endpoint = os.getenv("AWS_API_ENDPOINT")
-print("AWS_LAMBDA_ENDPOINT:", api_gateway_endpoint)
+
 if not api_gateway_endpoint:
     st.error("AWS_API_ENDPOINT environment variable not set.")
     st.stop()
