@@ -14,7 +14,7 @@ if not api_endpoint:
     st.stop()
 
 st.title("X-ray Pneumonia Detection App")
-
+st.markdown("### Built by Grace An")
 uploaded_file = st.file_uploader("Choose an X-ray image...", type="jpg")
 
 if uploaded_file is not None:
