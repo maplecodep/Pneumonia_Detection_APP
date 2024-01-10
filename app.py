@@ -7,7 +7,7 @@ import json
 import os
 
 # Set the AWS API endpoint URL as an environment variable
-api_endpoint = os.getenv("AWS_API_ENDPOINT")
+api_endpoint = os.getenv(AWS_API_ENDPOINT)
 if not api_gateway_endpoint:
     st.error("AWS_API_ENDPOINT environment variable not set.")
     st.stop()
